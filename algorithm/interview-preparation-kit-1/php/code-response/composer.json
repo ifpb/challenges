@@ -1,0 +1,16 @@
+{
+  "name": "ifpb/interview",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Vector\\": "src/Vector/",
+      "String\\": "src/String/",
+      "SockMerchant\\": "src/SockMerchant/",
+      "Date\\": "src/Date/",
+      "Grammar\\": "src/Grammar/"
+    }
+  },
+  "require-dev": {
+    "kahlan/kahlan": "^4.6"
+  }
+}
