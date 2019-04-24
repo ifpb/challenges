@@ -189,10 +189,10 @@ _Tabela 11.1_
 
 Veja esta relação de código inicial e alternativa de resposta disponíveis nestas linguagens:
 
-| Linguagem  | Código inicial           | Alternativa de Resposta               |
-| ---------- | ------------------------ | ------------------------------------- |
-| Javascript | [code.zip](js/code.zip)  | [code-response.zip](js/response.zip)  |
-| PHP        | [code.zip](php/code.zip) | [code-response.zip](php/response.zip) |
+| Linguagem  | Código inicial           | Alternativa de Resposta                    |
+| ---------- | ------------------------ | ------------------------------------------ |
+| Javascript | [code.zip](js/code.zip)  | [code-response.zip](js/code-response.zip)  |
+| PHP        | [code.zip](php/code.zip) | [code-response.zip](php/code-response.zip) |
 
 Já para facilitar o mapeamento das questões com o código inicial veja esta outra relação:
 

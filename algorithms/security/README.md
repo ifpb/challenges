@@ -116,11 +116,11 @@ Mas por uma questão de autonomia, vamos criar a classe `RainbowTable` para queb
 
 Veja esta relação de código inicial e alternativa de resposta disponíveis nestas linguagens:
 
-| Linguagem  | Código inicial           | Alternativa de Resposta               |
-| ---------- | ------------------------ | ------------------------------------- |
-| Javascript |                          |                                       |
-| PHP        | [code.zip](php/code.zip) | [code-response.zip](php/response.zip) |
-| Python     |                          |                                       |
+| Linguagem  | Código inicial           | Alternativa de Resposta                    |
+| ---------- | ------------------------ | ------------------------------------------ |
+| Javascript |                          |                                            |
+| PHP        | [code.zip](php/code.zip) | [code-response.zip](php/code-response.zip) |
+| Python     |                          |                                            |
 
 Já para facilitar o mapeamento das questões com o código inicial veja esta outra relação:
 
