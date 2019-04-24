@@ -1,0 +1,14 @@
+{
+  "name": "ifpb/security",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Cipher\\": "src/Cipher/",
+      "RainbowTable\\": "src/RainbowTable/",
+      "WordFrequency\\": "src/WordFrequency/"
+    }
+  },
+  "require-dev": {
+    "kahlan/kahlan": "^4.6"
+  }
+}

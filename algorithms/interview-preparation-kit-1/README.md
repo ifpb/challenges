@@ -4,7 +4,7 @@
 
 ---
 
-Cada vez mais os processos seletivos estão utilizando resolução de problemas para analisar o nível de compreensão dos conceitos de programação. Para simular esse processo será exigido a entrega de no **mínimo três** dos algoritmos descritos a seguir.
+Cada vez mais os processos seletivos estão utilizando resolução de problemas para analisar o nível de compreensão dos conceitos de programação do candidato. Para simular esse processo será exigido a entrega de no **mínimo três** dos algoritmos descritos a seguir.
 
 Detalhe, as questões já possuem esboços disponíveis em arquivos dependendo da linguagem. Para maiores detalhes veja a **seção CÓDIGO**.
 
@@ -13,6 +13,8 @@ Detalhe, as questões já possuem esboços disponíveis em arquivos dependendo d
 ---
 
 **QUESTÃO 1** - Crie um algoritmo que recebe uma data no formato "dd/mm/aaaa" e escreva a data por extenso. Então, a entrada será uma data no formato de texto usando o separador de barra (`/`) entre os campos da data. Já a saída deve possuir o formato por extenso da a entrada, por exemplo, na data `01/01/1970` deve ser retornado `01 de janeiro de 1970`.
+
+Para analisar mais exemplos veja a _Tabela 1.1_.
 
 _Tabela 1.1:_
 
@@ -43,7 +45,7 @@ Por exemplo, ao receber o conjunto de meias {1, 2, 1, 2, 1, 3, 2} veja que do to
 
 Do mesmo modo, ao receber o conjunto de meias {10, 20, 20, 10, 10, 30, 50, 10, 20} irão existir esses 4 tipos de meias {10, 20, 30, 50} que ao se agrupar em pares é possível formar 2 pares do tipo de meia `10`, e 1 do `20`, o que totalizam 3 pares. Conforme é possível ver nas meias destacadas {**10**, **20**, **20**, **10**, **10**, 30, 50, **10**, 20}.
 
-Para ilustrar mais exemplos veja a _Tabela 3.1_.
+Para analisar mais exemplos veja a _Tabela 3.1_.
 
 _Tabela 3.1_
 
@@ -64,7 +66,7 @@ _Tabela 3.1_
 [5, 1, 2, 3, 4] (4º salto: o elemento 4 foi para o final do array)
 ```
 
-Para ilustrar mais exemplos veja a _Tabela 4.1_.
+Para analisar mais exemplos veja a _Tabela 4.1_.
 
 _Tabela 4.1_
 
@@ -79,7 +81,7 @@ _Tabela 4.1_
 
 Por exemplo, considerando inicialmente os valores `-4, 3, -9, 0, 4, 1` os elementos menor, igual e maior que zero são respectivamente e `-4, -9`, `0` e `3, 4, 1`. Na proporção representam os valores `2/6, 1/6, 3/6` que resultam, na precisão de 6, em `0.333333, 0.166667, 0.500000`.
 
-Para ilustrar mais exemplos veja a _Tabela 5.1_.
+Para analisar mais exemplos veja a _Tabela 5.1_.
 
 _Tabela 5.1_
 
@@ -94,7 +96,7 @@ _Tabela 5.1_
 
 Por exemplo, considerando inicialmente os valores `1, 2, 3, 4, 5`, então os 4 menores elementos são `1, 2, 3, 4`, já os 4 maiores são `2, 3, 4, 5`, logo suas respectivas somas serão `10` e `14`.
 
-Para ilustrar mais exemplos veja a _Tabela 6.1_.
+Para analisar mais exemplos veja a _Tabela 6.1_.
 
 _Tabela 6.1_
 
@@ -108,7 +110,7 @@ _Tabela 6.1_
 
 Por exemplo, no caso do array `1, 4, 4, 4, 5, 3` os elementos `1, 3, 4, 5` existem na frequência de `1, 1, 3, 1`, logo percebe-se que o elemento 4 possui a maior frequência.
 
-Para ilustrar mais exemplos veja a _Tabela 7.1_.
+Para analisar mais exemplos veja a _Tabela 7.1_.
 
 _Tabela 7.1_
 
@@ -122,7 +124,7 @@ _Tabela 7.1_
 
 Por exemplo, se a string `aba` for repetida 4 vezes ela ficará `abaabaabaaba`, mas para ficar com um tamanho de 10 será necessário remover algumas letras no final, gerando a string `abaabaabaa`. Ao contabilizar a ocorrência da letra `a` o resultado será 7.
 
-Para ilustrar mais exemplos veja a _Tabela 8.1_.
+Para analisar mais exemplos veja a _Tabela 8.1_.
 
 _Tabela 8.1_
 
@@ -137,7 +139,7 @@ _Tabela 8.1_
 
 Por exemplo, a sequência de `1` até `5` é `12345`, e seu reflexo é `54321`, juntando os dois segmento obtem-se o valor `1234554321`.
 
-Para ilustrar mais exemplos veja a _Tabela 9.1_.
+Para analisar mais exemplos veja a _Tabela 9.1_.
 
 _Tabela 9.1_
 
@@ -151,7 +153,7 @@ _Tabela 9.1_
 
 Por exemplo, a soma de 7 mais 8 é igual a 15, logo o retorno será 15 pois não existe o dígito `0`. Já a soma de 15 mais 5 é igual a 20, logo o retorno será 2 pois será removido o dígito `0`.
 
-Para ilustrar mais exemplos veja a _Tabela 10.1_.
+Para analisar mais exemplos veja a _Tabela 10.1_.
 
 _Tabela 10.1_
 
@@ -169,7 +171,7 @@ _Figura 11.1 - Representação dos números em LED_<br>
 
 Então, seguindo o raciocínio, o dígito `1` precisa de 2 LEDs, o `2` de 5 e assim sucessivamente. Já o número `115380` é formado pelos dígitos `{1, 1, 5, 3, 8, 0}` e exige respectivamente a seguinte quantia de LEDs `{2, 2, 5, 5, 7, 6}`, que resulta em um total de 27 LEDs.
 
-Para ilustrar mais exemplos veja a _Tabela 11.1_.
+Para analisar mais exemplos veja a _Tabela 11.1_.
 
 _Tabela 11.1_
 
@@ -185,7 +187,7 @@ _Tabela 11.1_
 
 ---
 
-Veja esta relação de código inical e alternativa de resposta disponíveis nestas linguagens:
+Veja esta relação de código inicial e alternativa de resposta disponíveis nestas linguagens:
 
 | Linguagem  | Código inicial           | Alternativa de Resposta               |
 | ---------- | ------------------------ | ------------------------------------- |
