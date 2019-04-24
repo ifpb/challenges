@@ -37,11 +37,11 @@ _Tabela 2.1:_
 
 | Entrada                                                       | Saída |
 | ------------------------------------------------------------- | ----- |
-| `Zubat`                                                       | 150   |
-| `Zubat, Pikachu, Pikachu`                                     | 149   |
-| `Zubat, Zubat, Zubat, Zubat, Zubat, Zubat, Zubat, Zubat`      | 150   |
-| `Zubat, Charmander, Caterpie, Pidgeot`                        | 147   |
-| `Charmander, Caterpie, Pidgeot, Rattata, Zubat, Zubat, Zubat` | 146   |
+| `Zubat`                                                       | `150` |
+| `Zubat, Pikachu, Pikachu`                                     | `149` |
+| `Zubat, Zubat, Zubat, Zubat, Zubat, Zubat, Zubat, Zubat`      | `150` |
+| `Zubat, Charmander, Caterpie, Pidgeot`                        | `147` |
+| `Charmander, Caterpie, Pidgeot, Rattata, Zubat, Zubat, Zubat` | `146` |
 
 **QUESTÃO 3** - O Sr. Severino resolveu organizar sua biblioteca, então ele pensou em criar um programa que registrasse e classificasse seus livros pelo seu código (Fonte: [Urionlinejudge - The Library of Mr. Severino](https://www.urionlinejudge.com.br/judge/en/problems/view/2137)).
 
@@ -232,11 +232,11 @@ _Tabela 10.1:_
 
 Veja esta relação de código inicial e alternativa de resposta disponíveis nestas linguagens:
 
-| Linguagem  | Código inicial           | Alternativa de Resposta                    |
-| ---------- | ------------------------ | ------------------------------------------ |
-| Javascript | [code.zip](js/code.zip)  | [code-response.zip](js/code-response.zip)  |
-| PHP        | [code.zip](php/code.zip) | [code-response.zip](php/code-response.zip) |
-| Python     |                          |                                            |
+| Linguagem  | Código inicial              | Alternativa de Resposta                       |
+| ---------- | --------------------------- | --------------------------------------------- |
+| Javascript | [code.zip](js/code.zip)     | [code-response.zip](js/code-response.zip)     |
+| PHP        | [code.zip](php/code.zip)    | [code-response.zip](php/code-response.zip)    |
+| Python     | [code.zip](python/code.zip) | [code-response.zip](python/code-response.zip) |
 
 Já para facilitar o mapeamento das questões com o código inicial veja esta outra relação:
 
