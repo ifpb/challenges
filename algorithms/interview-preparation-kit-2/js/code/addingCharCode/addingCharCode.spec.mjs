@@ -1,7 +1,7 @@
 import { addingCharCode } from './addingCharCode.mjs';
 
 describe('Char Code', () => {
-  test('adding char code of "a"', () => {
+  test.skip('adding char code of "a"', () => {
     expect(addingCharCode('a')).toEqual(97);
   });
 

@@ -4,7 +4,7 @@ use \String\StringUtil;
 
 describe('String Utils', function () {
 
-  it('number of letter a in the first 10 repeated string', function () {
+  xit('number of letter a in the first 10 repeated string', function () {
     expect(StringUtil::repeatedString('a', 10))->toBe(10);
   });
 

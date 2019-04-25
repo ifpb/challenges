@@ -4,7 +4,7 @@
 
 ---
 
-Cada vez mais os processos seletivos estão utilizando resolução de problemas para analisar o nível de compreensão dos conceitos de programação do candidato. Para simular esse processo será exigido a entrega de no **mínimo três** dos algoritmos descritos a seguir.
+Cada vez mais os processos seletivos estão utilizando resolução de problemas para analisar o nível de compreensão dos conceitos de programação do candidato. Para simular esse processo será exigido a entrega de no **mínimo quatro** dos algoritmos descritos a seguir.
 
 Detalhe, as questões já possuem esboços disponíveis em arquivos dependendo da linguagem. Para maiores detalhes veja a **seção CÓDIGO**.
 
@@ -232,11 +232,11 @@ _Tabela 10.1:_
 
 Veja esta relação de código inicial e alternativa de resposta disponíveis nestas linguagens:
 
-| Linguagem  | Código inicial              | Alternativa de Resposta                       |
-| ---------- | --------------------------- | --------------------------------------------- |
-| Javascript | [code.zip](js/code.zip)     | [code-response.zip](js/code-response.zip)     |
-| PHP        | [code.zip](php/code.zip)    | [code-response.zip](php/code-response.zip)    |
-| Python     | [code.zip](python/code.zip) | [code-response.zip](python/code-response.zip) |
+| Linguagem  | Código inicial           | Alternativa de Resposta                    |
+| ---------- | ------------------------ | ------------------------------------------ |
+| Javascript | [code.zip](js/code.zip)  | [code-response.zip](js/code-response.zip)  |
+| PHP        | [code.zip](php/code.zip) | [code-response.zip](php/code-response.zip) |
+| Python     |                          |                                            |
 
 Já para facilitar o mapeamento das questões com o código inicial veja esta outra relação:
 

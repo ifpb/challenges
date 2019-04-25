@@ -1,7 +1,7 @@
 import { rotLeft } from './rotLeft.mjs';
 
 describe('Array Utils', () => {
-  test('performing 1 left rotations', () => {
+  test.skip('performing 1 left rotations', () => {
     const arr = [1, 2, 3, 4, 5];
     const expected = [2, 3, 4, 5, 1];
     expect(rotLeft(arr, 1)).toEqual(expected);

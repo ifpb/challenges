@@ -3,7 +3,7 @@
 use \SockMerchant\SockMerchant;
 
 describe('Sock Merchant', function () {
-  it('number of matching pairs of [1, 2, 3]', function () {
+  xit('number of matching pairs of [1, 2, 3]', function () {
     $arr = [1, 2, 3];
     expect(SockMerchant::sockMerchant($arr))->toBe(0);
   });

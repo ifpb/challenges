@@ -1,7 +1,7 @@
 import { repeatedString } from './repeatedString.mjs';
 
 describe('String Utils', () => {
-  test('number of letter a in the first 10 repeated string', () => {
+  test.skip('number of letter a in the first 10 repeated string', () => {
     expect(repeatedString('a', 10)).toBe(10);
   });
 

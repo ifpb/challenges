@@ -128,8 +128,8 @@ Veja esta relação de código inicial e alternativa de resposta disponíveis ne
 
 Já para facilitar o mapeamento das questões com o código inicial veja esta outra relação:
 
-| Questão | Javascript | PHP                       | Python |
-| ------- | ---------- | ------------------------- | ------ |
-| 1       |            | `code/src/Chiper/`        |        |
-| 2       |            | `code/src/WordFrequency/` |        |
-| 3       |            | `code/src/RainbowTable/`  |        |
+| Questão | Javascript            | PHP                       | Python |
+| ------- | --------------------- | ------------------------- | ------ |
+| 1       | `code/cipher`         | `code/src/Chiper/`        |        |
+| 2       | `code/word-frequency` | `code/src/WordFrequency/` |        |
+| 3       | `code/rainbow-table`  | `code/src/RainbowTable/`  |        |

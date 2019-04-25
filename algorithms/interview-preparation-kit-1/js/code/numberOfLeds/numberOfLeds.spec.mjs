@@ -1,7 +1,7 @@
 import { numberOfLeds } from './numberOfLeds.mjs';
 
 describe('String Utils', () => {
-  test('number of leds needed to set 1', () => {
+  test.skip('number of leds needed to set 1', () => {
     expect(numberOfLeds('1')).toBe(2);
   });
 

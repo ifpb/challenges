@@ -1,0 +1,21 @@
+{
+  "name": "ifpb/interview",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "CharCode\\": "src/CharCode/",
+      "BirthdayCakeCandles\\": "src/BirthdayCakeCandles/",
+      "CatAndMouse\\": "src/CatAndMouse/",
+      "Triplets\\": "src/Triplets/",
+      "ApplesAndOranges\\": "src/ApplesAndOranges/",
+      "Valleys\\": "src/Valleys/",
+      "FunnyString\\": "src/FunnyString/",
+      "HackerrankInString\\": "src/HackerrankInString/",
+      "PokemonCollection\\": "src/PokemonCollection/",
+      "Library\\": "src/Library/"
+    }
+  },
+  "require-dev": {
+    "kahlan/kahlan": "^4.6"
+  }
+}

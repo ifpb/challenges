@@ -1,7 +1,7 @@
 import { compareTheTriplets } from './compareTheTriplets.mjs';
 
 describe('Compare the Triplets', () => {
-  test('comparing the triples 1, 1, 1 and 0, 0, 0', () => {
+  test.skip('comparing the triples 1, 1, 1 and 0, 0, 0', () => {
     expect(compareTheTriplets(1, 1, 1, 0, 0, 0)).toEqual([3, 0]);
   });
 

@@ -1,7 +1,7 @@
 import { sockMerchant } from './sockMerchant.mjs';
 
 describe('Sock Merchant', () => {
-  test('number of matching pairs of [1, 2, 3]', () => {
+  test.skip('number of matching pairs of [1, 2, 3]', () => {
     let arr = [1, 2, 3];
     expect(sockMerchant(arr)).toBe(0);
   });

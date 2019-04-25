@@ -1,7 +1,7 @@
 import { funnyString } from './funnyString.mjs';
 
 describe('Funny String', () => {
-  test('the string abc is funny', () => {
+  test.skip('the string abc is funny', () => {
     expect(funnyString('abc')).toEqual('Funny');
   });
 

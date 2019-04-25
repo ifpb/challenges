@@ -1,7 +1,7 @@
 import { sortLibrary } from './sortLibrary.mjs';
 
 describe('The Library of Mr Severino', () => {
-  test('sort codes collection 3000, 2000, 1000', () => {
+  test.skip('sort codes collection 3000, 2000, 1000', () => {
     const codes = ['3000', '2000', '1000'];
     const expected = ['1000', '2000', '3000'];
     expect(sortLibrary(codes)).toEqual(expected);

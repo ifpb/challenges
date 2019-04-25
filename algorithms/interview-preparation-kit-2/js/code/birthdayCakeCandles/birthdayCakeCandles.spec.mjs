@@ -1,7 +1,7 @@
 import { birthdayCakeCandles } from './birthdayCakeCandles.mjs';
 
 describe('Birthday Cake Candles', () => {
-  test('1 candles that can be blown in [1, 1, 1, 3]', () => {
+  test.skip('1 candles that can be blown in [1, 1, 1, 3]', () => {
     expect(birthdayCakeCandles([1, 1, 1, 3])).toBe(1);
   });
 
