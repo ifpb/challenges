@@ -4,7 +4,7 @@ use WordFrequency\WordFrequency;
 
 describe('WordFrequency', function () {
 
-  it('generating word frequency from plain text', function () {
+  xit('generating word frequency from plain text', function () {
     $text = 'Qual é a árvore preferida de um administrador de redes? Ipê.';
     $expected = [
       '1' => ['.', '?', 'f', 'l', 'n', 'q', 't', 'v', 'á', 'é', 'ê'],
