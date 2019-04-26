@@ -4,7 +4,7 @@
 
 ---
 
-O projeto _open source_ [nicolargo/glances](https://github.com/nicolargo/glances) tem com finalidade criar um dashboard para monitorar informações em modo texto. Ao executar o sistema via os comandos a seguir:
+O projeto _open source_ [nicolargo/glances](https://github.com/nicolargo/glances) tem a finalidade criar um dashboard para monitorar informações em modo texto. Ao executar o sistema via os comandos a seguir:
 
 ```
 $ docker pull nicolargo/glances
@@ -16,14 +16,16 @@ Percebe-se que é possível acessá-lo via o endereço [http://localhost:61208](
 _Figura 1 - Layout Web do [nicolargo/glances](https://github.com/nicolargo/glances)_
 ![Layout](assets/layout.png)
 
-Usando este outro comando é possível acessar essas informações via terminal:
+Usando este outro comando o sistema também se torna acessível via terminal:
 
 ```
 $ docker pull nicolargo/glances
 $ docker run --rm -v /var/run/docker.sock:/var/run/docker.sock:ro --pid host --network host -it docker.io/nicolargo/glances
 ```
 
-Então, pensando em propor uma contribuição que exibisse essas informações usando um layout com a aparência do [Bootstrap](https://getbootstrap.com), foi que o presente desafio propôs a escolha de algumas informações por meio dos componentes que serão descritos a seguir. Para o desafio ser considerado complete é necessário entregar no mínimo três componentes.
+Então, pensando em propor uma contribuição que exibisse essas informações usando um layout com a aparência do [Bootstrap](https://getbootstrap.com), foi que o presente desafio propôs a escolha de algumas informações que serão descritos a seguir por meio dos componentes.
+
+Para o desafio ser considerado complete é necessário entregar no mínimo **quatro componentes**.
 
 ## COMPONENTES
 
