@@ -192,3 +192,8 @@ CPU%   MEM%  VIRT  RES     PID USER          TIME+ THR  NI S  R/s W/s  Command
 0.0    0.1   3.67M 1.88M  1188 root           0:00 4     0 S    ? ?    /usr/bin/kmsg
 0.0    0.0   1.55M 996K   1225 root           0:00 1     0 S    ? ?    /bin/sh -x /usr/bin/start-docker.sh
 ```
+
+<br>
+<br>
+
+> [Alternativa de respostas](code-response/)

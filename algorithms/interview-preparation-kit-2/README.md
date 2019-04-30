@@ -177,7 +177,7 @@ _Tabela 7.1:_
 | `UDDDUDUU`     | `1`   |
 | `DDUUDDUDUUUD` | `2`   |
 
-**QUESTÃO 8** - Crie um programa para detectar se um texto possui caracteres suficientes para montar a palavra `hackerrank` (Fonte: [Hackerrank - HackerRank in a String](https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem)).
+**QUESTÃO 8** - Crie um programa para detectar se um texto possui caracteres suficientes para montar a palavra `hackerrank` na ordem original dos caracteres (Fonte: [Hackerrank - HackerRank in a String](https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem)).
 
 Por exemplo, para o texto `hereiamstackerrank` é possível verificar que é existem caracteres suficientes para montar a palavra deseja conforme as letras em destaque `HereiAmstaCKERRANK`. Nessa situação o programa deve retorna `YES`, caso contrario o retorno será `NO`.
 
