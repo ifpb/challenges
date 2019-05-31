@@ -34,3 +34,8 @@ _Figura 4 - Informações da CPU._<br>
 
 _Figura 5 - Informações sobre a memória._<br>
 ![swap-load](assets/component-4.png)
+
+<br>
+<br>
+
+> [Alternativa de respostas](code-response/)
