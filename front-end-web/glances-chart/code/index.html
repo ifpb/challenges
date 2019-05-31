@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Glances</title>
+    <style>
+      .table-sm td,
+      .table-sm th {
+        padding: 0 0.3rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand text-white" href="#">Glances</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="container-fluid mt-4">
+      <div class="row">
+        <div class="col-4 px-1">
+          <div class="card">
+            <div class="card-header text-center font-weight-bold">
+              Info
+            </div>
+            <div class="card-body px-0">
+              <table class="info table table-sm table-borderless mb-0">
+                <tbody>
+                  <tr>
+                    <td colspan="3">
+                      Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>CPU</td>
+                    <td class="w-75 align-middle">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuenow="0"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 12.6%;"
+                        ></div>
+                      </div>
+                    </td>
+                    <td>12.6%</td>
+                  </tr>
+                  <tr>
+                    <td>MEM</td>
+                    <td class="w-75 align-middle">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuenow="0"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 25.7%;"
+                        ></div>
+                      </div>
+                    </td>
+                    <td>25.7%</td>
+                  </tr>
+                  <tr>
+                    <td>SWAP</td>
+                    <td class="w-75 align-middle">
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          aria-valuenow="0"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 0%;"
+                        ></div>
+                      </div>
+                    </td>
+                    <td>0%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="card my-3">
+            <div class="card-header text-center font-weight-bold">
+              NETWORK
+            </div>
+            <div class="card-body px-0">
+              <table class="net table table-sm table-borderless mb-0">
+                <thead>
+                  <tr>
+                    <th>NETWORK</th>
+                    <th>Rx/s</th>
+                    <th>Tx/s</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>docker0</td>
+                    <td>0b</td>
+                    <td>0b</td>
+                  </tr>
+                  <tr>
+                    <td>eth0</td>
+                    <td>0b</td>
+                    <td>0b</td>
+                  </tr>
+                  <tr>
+                    <td>lo</td>
+                    <td>256b</td>
+                    <td>256b</td>
+                  </tr>
+                  <tr>
+                    <td>vethb1e07b2</td>
+                    <td>0b</td>
+                    <td>0b</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 px-1">
+          <div class="card">
+            <div class="card-header text-center font-weight-bold">
+              CPU
+            </div>
+            <div class="card-body px-0">
+              <table class="table table-sm table-borderless mb-0">
+                <tr>
+                  <td>CPU</td>
+                  <td>12.6%</td>
+                  <td>nice:</td>
+                  <td>0.0%</td>
+                  <td>ctx_sw:</td>
+                  <td>647</td>
+                </tr>
+                <tr>
+                  <td>user:</td>
+                  <td>7.7%</td>
+                  <td>irq:</td>
+                  <td>0.0%</td>
+                  <td>inter:</td>
+                  <td>312</td>
+                </tr>
+                <tr>
+                  <td>system:</td>
+                  <td>4.8%</td>
+                  <td>iowait:</td>
+                  <td>0.0%</td>
+                  <td>sw_int:</td>
+                  <td>193</td>
+                </tr>
+                <tr>
+                  <td>idle:</td>
+                  <td>87.5%</td>
+                  <td>steal:</td>
+                  <td>0.0%</td>
+                </tr>
+              </table>
+            </div>
+            <div class="chart my-3">
+              <canvas id="cpu-chart" width="400" height="170"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 px-1">
+          <div class="card">
+            <div class="card-header text-center font-weight-bold">
+              Memory
+            </div>
+            <div class="card-body px-0">
+              <table class="table table-sm table-borderless mb-0">
+                <tbody>
+                  <tr>
+                    <td>MEM</td>
+                    <td>25.7%</td>
+                    <td>active:</td>
+                    <td>373M</td>
+                  </tr>
+                  <tr>
+                    <td>total:</td>
+                    <td>1.95G</td>
+                    <td>inactive:</td>
+                    <td>1.32G</td>
+                  </tr>
+                  <tr>
+                    <td>used:</td>
+                    <td>514M</td>
+                    <td>buffers:</td>
+                    <td>31.6M</td>
+                  </tr>
+                  <tr>
+                    <td>free:</td>
+                    <td>1.45G</td>
+                    <td>cached:</td>
+                    <td>1.46G</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="chart my-3">
+              <canvas id="memory-chart" width="400" height="170"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "mem": "25.7%",
+  "active": "373M",
+  "total": "1.95G",
+  "inactive": "1.32G",
+  "used": "0.51G",
+  "buffers": "31.6M",
+  "free": "1.45G",
+  "cached": "1.46G"
+}

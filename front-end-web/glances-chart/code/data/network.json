@@ -1,0 +1,22 @@
+[
+  {
+    "network": "docker0",
+    "rx": "0b",
+    "tx": "0b"
+  },
+  {
+    "network": "eth0",
+    "rx": "0b",
+    "tx": "0b"
+  },
+  {
+    "network": "lo",
+    "rx": "256b",
+    "tx": "256b"
+  },
+  {
+    "network": "vethb1e07b2",
+    "rx": "0b",
+    "tx": "0b"
+  }
+]

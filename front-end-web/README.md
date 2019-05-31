@@ -1,3 +1,3 @@
 # Web (Front-end)
 
-- [glances](glances/)
+- Glances ([static](glances/), [dynamic](glances-chart/))
