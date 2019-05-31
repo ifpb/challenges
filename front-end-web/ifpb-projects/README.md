@@ -6,12 +6,12 @@
 
 O portal [ifpb/projects](https://github.com/ifpb/projects) está precisando de alguns ajustes para melhorar sua experiência de uso. Dentre as necessidades de mudança a realização de filtros é uma opção que poderia facilitar o acesso de projetos específicos.
 
-Então o presente desafio propõe a construção da Interface Web semelhante ao da _Figura 1_.
+Então o presente desafio propõe a construção da Interface Web semelhante à _Figura 1_.
 
 _Figura 1 - Proposta de Layout Web para [ifpb/projects](https://github.com/ifpb/projects)_
 ![Layout](assets/layout.png)
 
-O desafio utiliza o projeto [code.zip](code.zip), nele existe a pasta `data` que possui o JSON contendo as informações dos projetos, e para ser considerado completo é necessário entregar no mínimo **dois componentes**.
+O desafio utiliza os arquivos do projeto [code.zip](code.zip), no qual possui informações dos projetos dentro de arquivos JSON na pasta `data`, e que devem ser utilizados para geração dinâmica da página. Para ser considerado completo é necessário entregar no mínimo **dois componentes**.
 
 ## COMPONENTES
 
