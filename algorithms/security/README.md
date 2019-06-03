@@ -22,7 +22,7 @@ Contudo, existem criptografias mais simples que podem ser decodificados com téc
 
 O próprio padrão da análise de frequências das letras já pode indicar que existe a possibilidade de uso de algum algoritmo de substituição, como a Cifra de César, mas ao se observar a mensagem não fica claro apontar qual foi a substituição específica.
 
-Então, uma forma de decodificar a mensagem poderia ser tentando "rotacionar" a mensagem de **ROT1** até **ROT25**, para que visualmente se identifique a legibilidade de alguma mensagem, ou seja, no caso de recebermos a mensagem `Dhny é n áeiber cersrevqn qr hz nqzvavfgenqbe qr erqrf? Vcê.` poderíamos aplicar os seguintes rotacionamentos com os respectivos resultados:
+Dentre as criptografias de substituição existe o rotacionamento, uma forma de decodificar a mensagem nessa criptografia poderia ser tentando "rotacionar" a mensagem de **ROT1** até **ROT25**, para que visualmente se identifique a legibilidade de alguma mensagem, ou seja, no caso de recebermos a mensagem `Dhny é n áeiber cersrevqn qr hz nqzvavfgenqbe qr erqrf? Vcê.` poderíamos aplicar os seguintes rotacionamentos com os respectivos resultados:
 
 | Rotacionamentos | Resultado                                                      |
 | --------------- | -------------------------------------------------------------- |

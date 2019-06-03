@@ -35,3 +35,8 @@ _Figura 4 - Ação do filtro de projetos_<br>
   <source src="assets/component-3.webm" type="video/webm">
   <source src="assets/component-3.mov" type="video/mov">
 </video>
+
+<br>
+<br>
+
+> [Alternativa de respostas](code-response/)

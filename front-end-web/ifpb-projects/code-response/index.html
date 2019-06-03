@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-title">
+      <h1>Projetos do IFPB</h1>
+    </header>
+    <main class="site-content">
+      <div class="projects"></div>
+      <div class="filters">
+        <div class="project-filter">
+          <input type="text" name="search" id="search" placeholder="Pesquisar" />
+        </div>
+        <div class="topics-filter">
+          <h2>Tags</h2>
+          <div class="values"></div>
+        </div>
+        <div class="subject-filter">
+          <h2>Disciplina</h2>
+          <div class="values"></div>
+        </div>
+        <div class="session-filter">
+          <h2>Período</h2>
+          <div class="values"></div>
+        </div>
+        <div class="course-filter">
+          <h2>Curso</h2>
+          <div class="values"></div>
+        </div>
+        <div class="campus-filter">
+          <h2>Campus</h2>
+          <div class="values"></div>
+        </div>
+        <div class="sorter">
+          <h2>Ordenar</h2>
+          <div class="values">
+            <select name="sorter" id="sorter">
+              <option value="title">Nome</option>
+              <option value="subject">Disciplina</option>
+              <option value="session">Período</option>
+              <option value="course">Curso</option>
+              <option value="campus">Campus</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="data/projects.js"></script>
+  <script src="js/main.js"></script>
+</html>
