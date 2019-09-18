@@ -1,11 +1,12 @@
 require_relative "./cipher"
 
 describe Cipher do
+  cipher = Cipher.new
   describe ".allRots" do
     context "decripting text with rot13" do
       message = "Dhny é n áeiber cersrevqn qr hz nqzvavfgenqbe qr erqrf? Vcê."
       it "return hash with response in rot13" do
-        expect(Cipher.allRots(message)).to eq(
+        expect(cipher.allRots(message)).to eq(
           {
             :rot1=> 'Eioz é o áfjcfs dfstsfwro rs ia orawbwghforcf rs fsrsg? Wdê.',
             :rot2=> 'Fjpa é p ágkdgt egtutgxsp st jb psbxcxhigpsdg st gtsth? Xeê.',
@@ -40,7 +41,7 @@ describe Cipher do
     context "decripting text with rot7" do
       message = "Xbhs é v kpav wvwbshy thpz bzhkv wvy bt huhspzah kl ylklz? Jhpb uh ylkl, é wopzopun!"
       it "return hash with response in rot7" do
-        expect(Cipher.allRots(message)).to eq(
+        expect(cipher.allRots(message)).to eq(
           {
             :rot1=> 'Ycit é w lqbw xwxctiz uiqa cailw xwz cu ivitqabi lm zmlma? Kiqc vi zmlm, é xpqapqvo!',
             :rot2=> 'Zdju é x mrcx yxyduja vjrb dbjmx yxa dv jwjurbcj mn anmnb? Ljrd wj anmn, é yqrbqrwp!',

@@ -6,7 +6,7 @@ end
 
 
 class Cipher 
-  def Cipher.complent(rotate) 
+  def complent(rotate) 
     complent = {};
     inputChars = ('a'..'z').to_a
     outputChars = inputChars.rotate(rotate);
@@ -20,7 +20,7 @@ class Cipher
     complent
   end
 
-  def Cipher.rot(str, rotate = 13) 
+  def rot(str, rotate = 13) 
     substitution = self.complent(rotate);
 
     str
@@ -29,7 +29,7 @@ class Cipher
       .join('')
   end
 
-  def Cipher.allRots(str) 
+  def allRots(str) 
     rots = {}
 
     (1...26).each {|rot| rots[:"rot#{rot}"] = self.rot(str,rot)}
