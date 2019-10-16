@@ -1,0 +1,16 @@
+{
+  "name": "ifpb/interview-3",
+  "autoload": {
+    "psr-4": {
+      "Squares\\": "src/Squares/",
+      "Pangram\\": "src/Pangram/",
+      "Raindrops\\": "src/Raindrops/",
+      "MarsExploration\\": "src/MarsExploration/",
+      "Anagram\\": "src/Anagram/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "kahlan/kahlan": "^4.6"
+  }
+}
