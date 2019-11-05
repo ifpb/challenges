@@ -196,16 +196,41 @@ Veja esta relação de código inicial e alternativa de resposta disponíveis ne
 
 Já para facilitar o mapeamento das questões com o código inicial veja esta outra relação:
 
-| Questão | Javascript               | PHP                      |
-| ------- | ------------------------ | ------------------------ |
-| 1       | `code/formatDate/`       | `code/src/Date/`         |
-| 2       | `code/grammar/`          | `code/src/Grammar/`      |
-| 3       | `code/sockMerchant/`     | `code/src/SockMerchant/` |
-| 4       | `code/rotLeft/`          | `code/src/String/`       |
-| 5       | `code/arrayStats/`       | `code/src/String/`       |
-| 6       | `code/minMaxSum/`        | `code/src/String/`       |
-| 7       | `code/highestFrequency/` | `code/src/String/`       |
-| 8       | `code/repeatedString/`   | `code/src/Vector/`       |
-| 9       | `code/mirrorSequence/`   | `code/src/Vector/`       |
-| 10      | `code/zeroMeansZero/`    | `code/src/Vector/`       |
-| 11      | `code/numberOfLeds/`     | `code/src/Vector/`       |
+| Questão | Nome da Pasta      |
+| ------- | ------------------ |
+| 1       | `FormatDate`       |
+| 2       | `Grammar`          |
+| 3       | `SocketMerchant`   |
+| 4       | `RotLeft`          |
+| 5       | `ArrayStats`       |
+| 6       | `MimMaxSum`        |
+| 7       | `HighestFrequency` |
+| 8       | `RepeatedString`   |
+| 9       | `MirrorSequence`   |
+| 10      | `ZeroMeansZero`    |
+| 11      | `NumberOfLeds`     |
+
+### PHP
+
+Se seu PC não possui PHP, composer e kahlan, mas possui o docker, veja que o projeto existe um `Dockerfile`. Então, para executar os testes basta executar os seguintes comandos:
+
+```
+$ cd code
+$ docker build -t php:kahlan .
+$ docker run -it --rm -w /app -v "$PWD":/app php:kahlan sh
+# composer install
+# kahlan --spec=spec/FormatDate/FormatDate.spec.php
+# kahlan --spec=spec/
+```
+
+### Ruby
+
+Se seu PC não possui Ruby e rspec, mas possui o docker, veja que o projeto existe um `Dockerfile`. Então, para executar os testes basta executar os seguintes comandos:
+
+```
+$ cd code
+$ docker build -t ruby:rspec .
+$ docker run -it --rm -w /app -v "$PWD":/app ruby:rspec sh
+# rspec spec/FormatDate/format-date.spec.rb 
+# rspec spec/*/*.spec.rb 
+```

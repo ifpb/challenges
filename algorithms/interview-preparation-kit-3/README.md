@@ -149,12 +149,12 @@ _Tabela 5.1: Entradas e Saídas_
 
 Veja esta relação de código inicial e alternativa de resposta disponíveis nestas linguagens:
 
-| Linguagem  | Código inicial           | Alternativa de Resposta |
-| ---------- | ------------------------ | ----------------------- |
-| Javascript |                          |                         |
-| PHP        | [code.zip](php/code.zip) |                         |
-| Python     |                          |                         |
-| Ruby       |                          |                         |
+| Linguagem  | Código inicial           | Alternativa de Resposta                    |
+| ---------- | ------------------------ | ------------------------------------------ |
+| Javascript |                          |                                            |
+| PHP        | [code.zip](php/code.zip) | [code-response.zip](php/code-response.zip) |
+| Python     |                          |                                            |
+| Ruby       |                          |                                            |
 
 Já para facilitar o mapeamento das questões com o código inicial veja esta outra relação:
 
@@ -165,6 +165,8 @@ Já para facilitar o mapeamento das questões com o código inicial veja esta ou
 | 3       | `Raindrops`       |
 | 4       | `MarsExploration` |
 | 5       | `Anagram`         |
+
+### PHP
 
 Se seu PC não possui PHP, composer e kahlan, mas possui o docker, veja que o projeto existe um `Dockerfile`. Então, para executar os testes basta executar os seguintes comandos:
 

@@ -1,0 +1,3 @@
+class Cipher 
+  # TODO
+end

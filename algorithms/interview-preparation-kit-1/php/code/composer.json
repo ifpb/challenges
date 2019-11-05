@@ -3,11 +3,17 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "Vector\\": "src/Vector/",
-      "String\\": "src/String/",
+      "FormatDate\\": "src/FormatDate/",
+      "Grammar\\": "src/Grammar/",
       "SockMerchant\\": "src/SockMerchant/",
-      "Date\\": "src/Date/",
-      "Grammar\\": "src/Grammar/"
+      "RotLeft\\": "src/RotLeft/",
+      "ArrayStats\\": "src/ArrayStats/",
+      "MinMaxSum\\": "src/MinMaxSum/",
+      "HighestFrequency\\": "src/HighestFrequency/",
+      "MirrorSequence\\": "src/MirrorSequence/",
+      "RepeatedString\\": "src/RepeatedString/",
+      "ZeroMeansZero\\": "src/ZeroMeansZero/",
+      "NumberOfLeds\\": "src/NumberOfLeds/"
     }
   },
   "require-dev": {

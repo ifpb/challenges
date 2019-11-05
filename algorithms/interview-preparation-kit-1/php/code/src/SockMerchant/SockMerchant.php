@@ -3,7 +3,7 @@ namespace SockMerchant;
 
 class SockMerchant
 {
-  public static function sockMerchant($socks): int
+  public static function pairs($socks): int
   {
     // TODO
   }

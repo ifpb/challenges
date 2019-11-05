@@ -232,23 +232,49 @@ _Tabela 10.1:_
 
 Veja esta relação de código inicial e alternativa de resposta disponíveis nestas linguagens:
 
-| Linguagem  | Código inicial           | Alternativa de Resposta                    |
-| ---------- | ------------------------ | ------------------------------------------ |
-| Javascript | [code.zip](js/code.zip)  | [code-response.zip](js/code-response.zip)  |
-| PHP        | [code.zip](php/code.zip) | [code-response.zip](php/code-response.zip) |
-| Python     |                          |                                            |
+| Linguagem  | Código inicial            | Alternativa de Resposta                     |
+| ---------- | ------------------------- | ------------------------------------------- |
+| Javascript | [code.zip](js/code.zip)   | [code-response.zip](js/code-response.zip)   |
+| PHP        | [code.zip](php/code.zip)  | [code-response.zip](php/code-response.zip)  |
+| Python     |                           |                                             |
+| Ruby       | [code.zip](ruby/code.zip) | [code-response.zip](ruby/code-response.zip) |
 
 Já para facilitar o mapeamento das questões com o código inicial veja esta outra relação:
 
-| Questão | Javascript                     | PHP                             | Python |
-| ------- | ------------------------------ | ------------------------------- | ------ |
-| 1       | `code/addingCharCode/`         | `code/src/CharCode/`            |        |
-| 2       | `code/pokemonCollection/`      | `code/src/PokemonCollection/`   |        |
-| 3       | `code/theLibraryOfMrSeverino/` | `code/src/Library/`             |        |
-| 4       | `code/countApplesAndOranges/`  | `code/src/ApplesAndOranges/`    |        |
-| 5       | `code/catAndMouse/`            | `code/src/CatAndMouse/`         |        |
-| 6       | `code/birthdayCakeCandles/`    | `code/src/BirthdayCakeCandles/` |        |
-| 7       | `code/countingValleys/`        | `code/src/Valleys/`             |        |
-| 8       | `code/hackerrankInString/`     | `code/src/HackerrankInString/`  |        |
-| 9       | `code/compareTheTriplets/`     | `code/src/Triplets/`            |        |
-| 10      | `code/funnyString/`            | `code/src/FunnyString/`         |        |
+| Questão | Nome da Pasta         |
+| ------- | --------------------- |
+| 1       | `CharCode`            |
+| 2       | `PokemonCollection`   |
+| 3       | `Library`             |
+| 4       | `ApplesAndOranges`    |
+| 5       | `CatAndMouse`         |
+| 6       | `BirthdayCakeCandles` |
+| 7       | `Valleys`             |
+| 8       | `HackerrankInString`  |
+| 9       | `Triplets`            |
+| 10      | `FunnyString`         |
+
+### PHP
+
+Se seu PC não possui PHP, composer e kahlan, mas possui o docker, veja que o projeto existe um `Dockerfile`. Então, para executar os testes basta executar os seguintes comandos:
+
+```
+$ cd code
+$ docker build -t php:kahlan .
+$ docker run -it --rm -w /app -v "$PWD":/app php:kahlan sh
+# composer install
+# kahlan --spec=spec/ApplesAndOranges/ApplesAndOranges.spec.php
+# kahlan --spec=spec/
+```
+
+### Ruby
+
+Se seu PC não possui Ruby e rspec, mas possui o docker, veja que o projeto existe um `Dockerfile`. Então, para executar os testes basta executar os seguintes comandos:
+
+```
+$ cd code
+$ docker build -t ruby:rspec .
+$ docker run -it --rm -w /app -v "$PWD":/app ruby:rspec sh
+# rspec spec/ApplesAndOranges/apples_and_oranges.spec.rb 
+# rspec spec/*/*.spec.rb 
+```

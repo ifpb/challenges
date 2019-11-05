@@ -2,7 +2,7 @@
 use \Grammar\Grammar;
 
 describe('Grammar Util', function () {
-  xit('spelling "programador"', function () {
+  it('spelling "programador"', function () {
     expect(Grammar::spelling('programador'))->toBe('P-R-O-G-R-A-M-A-D-O-R');
   });
 

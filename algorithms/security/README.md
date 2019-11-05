@@ -120,16 +120,42 @@ Mas por uma questão de autonomia, vamos criar a classe `RainbowTable` para queb
 
 Veja esta relação de código inicial e alternativa de resposta disponíveis nestas linguagens:
 
-| Linguagem  | Código inicial           | Alternativa de Resposta                    |
-| ---------- | ------------------------ | ------------------------------------------ |
-| Javascript | [code.zip](js/code.zip)  | [code-response.zip](js/code-response.zip)  |
-| PHP        | [code.zip](php/code.zip) | [code-response.zip](php/code-response.zip) |
-| Python     |                          |                                            |
+| Linguagem  | Código inicial            | Alternativa de Resposta                     |
+| ---------- | ------------------------- | ------------------------------------------- |
+| Javascript | [code.zip](js/code.zip)   | [code-response.zip](js/code-response.zip)   |
+| PHP        | [code.zip](php/code.zip)  | [code-response.zip](php/code-response.zip)  |
+| Python     |                           |                                             |
+| Ruby       | [code.zip](ruby/code.zip) | [code-response.zip](ruby/code-response.zip) |
 
 Já para facilitar o mapeamento das questões com o código inicial veja esta outra relação:
 
-| Questão | Javascript            | PHP                       | Python |
-| ------- | --------------------- | ------------------------- | ------ |
-| 1       | `code/cipher`         | `code/src/Chiper/`        |        |
-| 2       | `code/word-frequency` | `code/src/WordFrequency/` |        |
-| 3       | `code/rainbow-table`  | `code/src/RainbowTable/`  |        |
+| Questão | Nome da Pasta   |
+| ------- | --------------- |
+| 1       | `Chiper`        |
+| 2       | `WordFrequency` |
+| 3       | `RainbowTable`  |
+
+### PHP
+
+Se seu PC não possui PHP, composer e kahlan, mas possui o docker, veja que o projeto existe um `Dockerfile`. Então, para executar os testes basta executar os seguintes comandos:
+
+```
+$ cd code
+$ docker build -t php:kahlan .
+$ docker run -it --rm -w /app -v "$PWD":/app php:kahlan sh
+# composer install
+# kahlan --spec=spec/Cipher/Cipher.spec.php
+# kahlan --spec=spec/
+```
+
+### Ruby
+
+Se seu PC não possui Ruby e rspec, mas possui o docker, veja que o projeto existe um `Dockerfile`. Então, para executar os testes basta executar os seguintes comandos:
+
+```
+$ cd code
+$ docker build -t ruby:rspec .
+$ docker run -it --rm -w /app -v "$PWD":/app ruby:rspec sh
+# rspec spec/Cipher/cipher.spec.rb 
+# rspec spec/*/*.spec.rb 
+```
