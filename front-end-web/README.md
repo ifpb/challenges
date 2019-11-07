@@ -11,6 +11,7 @@
   - Profile: [Simples](css/profile-simple/), [Responsivo](css/profile-responsive/)
   - Portfólio: [Simples](css/portfolio-simple/), [Galeria](css/portfolio-gallery/)
   - IFTech: [responsivo](css/iftech) e [animação](css/iftech-animation)
+  - Industrious: [simple](css/industrious-simple), [responsive](css/industrious-responsive), [animation](css/industrious-animation)
   - Template de Blog: [Denalli](css/blog-denalli/), [Escape](css/blog-escape/), [Evermore](css/blog-evermore/), [Lamar](css/blog-lamar/), [Moon](css/blog-moon/)
 - JS (W3C)
   - [IFPB Projects](js/ifpb-projects/)
