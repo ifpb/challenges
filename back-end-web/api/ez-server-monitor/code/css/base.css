@@ -1,0 +1,129 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+.progress {
+  position: relative;
+}
+
+.progress-value {
+  position: relative;
+}
+
+body>header {
+  color: #fff;
+  background-color: #99aec4;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+body>header .material-icons {
+  float: right;
+  cursor: pointer;
+  line-height: 50px;
+  margin-right: 20px;
+}
+
+section.card {
+  border: 1px solid #dfdfdf;
+  box-shadow: 1px 1px 0px 2px #dfdfdf;
+  margin: 20px 0;
+}
+
+section.card header {
+  color: #fff;
+  background-color: #99aec4;
+  padding: 5px;
+  font-size: 1.3em;
+}
+
+section.card header .material-icons {
+  float: right;
+  cursor: pointer;
+}
+
+section.card table {
+  color: #989798;
+  width: 98%;
+  margin: 5px auto;
+  border-collapse: collapse;
+}
+
+section.card table td, section.card table th {
+  padding: 5px;
+}
+
+section.card table tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+section.card.network table {
+  text-align: center;
+}
+
+section.card.memory table td:nth-child(2) {
+  width: 80%;
+}
+
+section.card.memory .memory-status {
+  background-color: #dee2e6;
+}
+
+section.card.memory .memory-status .memory-used {
+  background-color: #7bce6c;
+}
+
+section.card.service .online, section.service .offline {
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 1px 3px;
+  font-size: .9em;
+}
+
+section.card.service .online {
+  background-color: #2b992b;
+}
+
+section.card.service .offline {
+  background-color: #bd241c;
+}
+
+section.card.disk {
+  margin-top: 0;
+}
+
+section.card.disk .disk-status {
+  background-color: #dee2e6;
+}
+
+section.card.disk .disk-status .disk-used {
+  background-color: #7bce6c;
+}
+
+section.card.disk td:nth-child(n+4) {
+  text-align: center;
+}
+
+#system-info table {
+  min-height: 180px;
+}
+
+#network-info table {
+  min-height: 90px;
+}
+
+#memory-info table {
+  min-height: 120px;
+}
+
+#service-info table {
+  min-height: 150px;
+}
+
+#disk-info table {
+  min-height: 120px;
+}
