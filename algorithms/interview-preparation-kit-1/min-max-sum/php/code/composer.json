@@ -1,0 +1,12 @@
+{
+  "name": "ifpb/interview",
+  "require": {},
+  "require-dev": {
+    "kahlan/kahlan": "^4.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Challenge\\": "src/"
+    }
+  }
+}

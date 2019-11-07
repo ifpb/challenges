@@ -12,203 +12,35 @@ Detalhe, as questões já possuem esboços disponíveis em arquivos dependendo d
 
 ---
 
-**QUESTÃO 1** - Crie um algoritmo que recebe uma data no formato "dd/mm/aaaa" e escreva a data por extenso. Então, a entrada será uma data no formato de texto usando o separador de barra (`/`) entre os campos da data. Já a saída deve possuir o formato por extenso da a entrada, por exemplo, na data `01/01/1970` deve ser retornado `01 de janeiro de 1970`.
-
-Para analisar mais exemplos veja a _Tabela 1.1_.
-
-_Tabela 1.1:_
-
-| Entrada      | Saída                    |
-| ------------ | ------------------------ |
-| `29/10/1969` | `29 de outubro de 1969`  |
-| `01/01/1970` | `01 de janeiro de 1970`  |
-| `15/09/1975` | `15 de setembro de 1975` |
-| `01/04/1976` | `01 de abril de 1976`    |
-| `01-04-1976` | `Invalid data input`     |
-| `1976`       | `Invalid data input`     |
-| `aaa`        | `Invalid data input`     |
-
-<!-- http://www.computinghistory.org.uk/cgi/computing-timeline.pl -->
-
-**QUESTÃO 2** - Ao receber um texto transforme seu conteúdo para que as letras sejam exibidas em maiúsculo e separadas por hífen (`-`), contudo os espaços em branco devem ser desconsiderados. Veja alguns exemplos deste processamento na _Tabela 2.1_:
-
-_Tabela 2.1:_
-
-| Entrada              | Saída                           |
-| -------------------- | ------------------------------- |
-| `programador`        | `P-R-O-G-R-A-M-A-D-O-R`         |
-| `o dia está chuvoso` | `O-D-I-A-E-S-T-Á-C-H-U-V-O-S-O` |
-
-**QUESTÃO 3** - Crie um programa que ao receber um conjunto de meias identificadas por números retorne quantos pares do mesmo tipo é possível montar (Fonte: [Sock merchant - Hackerrank](https://www.hackerrank.com/challenges/sock-merchant/problem)).
-
-Por exemplo, ao receber o conjunto de meias {1, 2, 1, 2, 1, 3, 2} veja que do total existem 3 tipos de meias {1, 2, 3}. Ao se agrupar em pares é possível formar 1 par do tipo de meia `1`, e 1 do `2`, o que totaliza 2 pares. Conforme é possível ver nas meias destacadas {**1**, **2**, **1**, **2**, 1, 3, 2}.
-
-Do mesmo modo, ao receber o conjunto de meias {10, 20, 20, 10, 10, 30, 50, 10, 20} irão existir esses 4 tipos de meias {10, 20, 30, 50} que ao se agrupar em pares é possível formar 2 pares do tipo de meia `10`, e 1 do `20`, o que totalizam 3 pares. Conforme é possível ver nas meias destacadas {**10**, **20**, **20**, **10**, **10**, 30, 50, **10**, 20}.
-
-Para analisar mais exemplos veja a _Tabela 3.1_.
-
-_Tabela 3.1_
-
-| Entrada                              | Saída |
-| ------------------------------------ | ----- |
-| `1, 2, 3`                            | `0`   |
-| `1, 1, 1, 2`                         | `1`   |
-| `1, 2, 1, 2, 1, 3, 2`                | `2`   |
-| `10, 20, 20, 10, 10, 30, 50, 10, 20` | `3`   |
-
-**QUESTÃO 4** - Crie um algoritmo que rotacione os elementos de um array `a` em `d` saltos (Fonte: [Arrays: Left Rotation - Hackerrank](https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem)). Por exemplo, caso receba um array com so valores `1, 2, 3, 4, 5` e precisasse realizar 4 rotacionamentos o processamento seria:
-
-```
-[1, 2, 3, 4, 5]
-[2, 3, 4, 5, 1] (1º salto: o elemento 1 foi para o final do array)
-[3, 4, 5, 1, 2] (2º salto: o elemento 2 foi para o final do array)
-[4, 5, 1, 2, 3] (3º salto: o elemento 3 foi para o final do array)
-[5, 1, 2, 3, 4] (4º salto: o elemento 4 foi para o final do array)
-```
-
-Para analisar mais exemplos veja a _Tabela 4.1_.
-
-_Tabela 4.1_
-
-| Entrada                                                                             | Saída                                                                         |
-| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| `1, 2, 3, 4, 5`, `1`                                                                | `2, 3, 4, 5, 1`                                                               |
-| `1, 2, 3, 4, 5`, `4`                                                                | `5, 1, 2, 3, 4`                                                               |
-| `41, 73, 89, 7, 10, 1, 59, 58, 84, 77, 77, 97, 58, 1, 86, 58, 26, 10, 86, 51`, `10` | `77, 97, 58, 1, 86, 58, 26, 10, 86, 51, 41, 73, 89, 7, 10, 1, 59, 58, 84, 77` |
-| `33, 47, 70, 37, 8, 53, 13, 93, 71, 72, 51, 100, 60, 87, 97`, `13`                  | `87, 97, 33, 47, 70, 37, 8, 53, 13, 93, 71, 72, 51, 100, 60`                  |
-
-**QUESTÃO 5** - Receba um array e retornar a proporção de elementos menor, igual e maior que zero (Fonte: [Plus Minus - Hackerrank](https://www.hackerrank.com/challenges/plus-minus/problem)).
-
-Por exemplo, considerando inicialmente os valores `-4, 3, -9, 0, 4, 1` os elementos menor, igual e maior que zero são respectivamente e `-4, -9`, `0` e `3, 4, 1`. Na proporção representam os valores `2/6, 1/6, 3/6` que resultam, na precisão de 6, em `0.333333, 0.166667, 0.500000`.
-
-Para analisar mais exemplos veja a _Tabela 5.1_.
-
-_Tabela 5.1_
-
-| Entrada                     | Saída                          |
-| --------------------------- | ------------------------------ |
-| `1, 1, 1`                   | `0.000000, 0.000000, 1.000000` |
-| `0, 0, 1, 1`                | `0.000000, 0.500000, 0.500000` |
-| `-4, 3, -9, 0, 4, 1`        | `0.333333, 0.166667, 0.500000` |
-| `1, 2, 3, -1, -2, -3, 0, 0` | `0.375000, 0.250000, 0.375000` |
-
-**QUESTÃO 6** - Receba um array de tamanho 5 e retorna o valor mínimo e máximo da soma de 4 elementos do array (Fonte: [Mini-Max Sum - Hackerrank](https://www.hackerrank.com/challenges/mini-max-sum/problem)).
-
-Por exemplo, considerando inicialmente os valores `1, 2, 3, 4, 5`, então os 4 menores elementos são `1, 2, 3, 4`, já os 4 maiores são `2, 3, 4, 5`, logo suas respectivas somas serão `10` e `14`.
-
-Para analisar mais exemplos veja a _Tabela 6.1_.
-
-_Tabela 6.1_
-
-| Entrada              | Saída    |
-| -------------------- | -------- |
-| `1, 2, 3, 4, 5`      | `10, 14` |
-| `0, 2, 6, 3, 4`      | `9, 15`  |
-| `10, 23, 61, 37, 41` | `9, 15`  |
-
-**QUESTÃO 7** - Detecte o elemento de maior frequência de um array (Fonte: [Migratory Birds - Hackerrank](https://www.hackerrank.com/challenges/migratory-birds/problem)).
-
-Por exemplo, no caso do array `1, 4, 4, 4, 5, 3` os elementos `1, 3, 4, 5` existem na frequência de `1, 1, 3, 1`, logo percebe-se que o elemento 4 possui a maior frequência.
-
-Para analisar mais exemplos veja a _Tabela 7.1_.
-
-_Tabela 7.1_
-
-| Entrada                           | Saída |
-| --------------------------------- | ----- |
-| `1, 4, 4, 4, 5, 3`                | `4`   |
-| `1, 1, 1, 4, 5, 3`                | `1`   |
-| `1, 2, 3, 4, 5, 4, 3, 2, 1, 3, 4` | `3`   |
-
-**QUESTÃO 8** - Crie um algoritmo que receba a string `s` e tenta repeti-la várias vezes até ficar com um tamanho de `n`, e seu retorno deve trazer a quantidade de vezes que aparece a letra `a` (Fonte: [Repeated String - Hackerrank](https://www.hackerrank.com/challenges/repeated-string/problem)).
-
-Por exemplo, se a string `aba` for repetida 4 vezes ela ficará `abaabaabaaba`, mas para ficar com um tamanho de 10 será necessário remover algumas letras no final, gerando a string `abaabaabaa`. Ao contabilizar a ocorrência da letra `a` o resultado será 7.
-
-Para analisar mais exemplos veja a _Tabela 8.1_.
-
-_Tabela 8.1_
-
-| Entrada              | Saída           |
-| -------------------- | --------------- |
-| `a`, `10`            | `10`            |
-| `b`, `10`            | `0`             |
-| `aba`, `10`          | `7`             |
-| `a`, `1000000000000` | `1000000000000` |
-
-**QUESTÃO 9** - Retornar a sequência linear de `a` até `b`, e em seguida, a sequência será espelhada (Fonte: [Mirror Sequence - URI Online Judge](https://www.urionlinejudge.com.br/judge/en/problems/view/2157)).
-
-Por exemplo, a sequência de `1` até `5` é `12345`, e seu reflexo é `54321`, juntando os dois segmento obtem-se o valor `1234554321`.
-
-Para analisar mais exemplos veja a _Tabela 9.1_.
-
-_Tabela 9.1_
-
-| Entrada     | Saída                  |
-| ----------- | ---------------------- |
-| `1`, `5`    | `1234554321`           |
-| `10`, `13`  | `1011121331211101`     |
-| `98`, `101` | `98991001011010019989` |
-
-**QUESTÃO 10** - Retonar a soma dos valores `a` e `b` sem o dígito `0` caso exista (Fonte: [Zero means Zero - URI Online Judge](https://www.urionlinejudge.com.br/judge/en/problems/view/1871)).
-
-Por exemplo, a soma de 7 mais 8 é igual a 15, logo o retorno será 15 pois não existe o dígito `0`. Já a soma de 15 mais 5 é igual a 20, logo o retorno será 2 pois será removido o dígito `0`.
-
-Para analisar mais exemplos veja a _Tabela 10.1_.
-
-_Tabela 10.1_
-
-| Entrada   | Saída |
-| --------- | ----- |
-| `7`, `8`  | `15`  |
-| `15`, `5` | `2`   |
-| `99`, `6` | `15`  |
-
-**QUESTÃO 11** - Receber um número e retorno o total de LEDs necessário para exibi-lo. Lembrando que conforme a _Figura 11.1_ exibe, cada número exige uma quantidade de LEDs específica (Fonte: [Led - URI Online Judge](https://www.urionlinejudge.com.br/judge/en/problems/view/1168)).
-
-_Figura 11.1 - Representação dos números em LED_<br>
-<img alt="Representação dos números em LED" src="https://resources.urionlinejudge.com.br/gallery/images/problems/UOJ_1168.png" style="width: 500px; height: 95px;"><br>
-(Fonte: [Led - URI Online Judge](https://www.urionlinejudge.com.br/judge/en/problems/view/1168))
-
-Então, seguindo o raciocínio, o dígito `1` precisa de 2 LEDs, o `2` de 5 e assim sucessivamente. Já o número `115380` é formado pelos dígitos `{1, 1, 5, 3, 8, 0}` e exige respectivamente a seguinte quantia de LEDs `{2, 2, 5, 5, 7, 6}`, que resulta em um total de 27 LEDs.
-
-Para analisar mais exemplos veja a _Tabela 11.1_.
-
-_Tabela 11.1_
-
-| Entrada   | Saída |
-| --------- | ----- |
-| `1`       | `2`   |
-| `2`       | `5`   |
-| `23456`   | `25`  |
-| `115380`  | `27`  |
-| `2819311` | `29`  |
+| #   | Questões                                | js                                                                                   | php                                                                                    | ruby                                                                                     |
+| --- | --------------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| 1   | [format-date](format-date/)             | [code](format-date/js/code.zip), [response](format-date/js/response.zip)             | [code](format-date/php/code.zip), [response](format-date/php/response.zip)             | [code](format-date/ruby/code.zip), [response](format-date/ruby/response.zip)             |
+| 2   | [grammar](grammar/)                     | [code](grammar/js/code.zip), [response](grammar/js/response.zip)                     | [code](grammar/php/code.zip), [response](grammar/php/response.zip)                     | [code](grammar/ruby/code.zip), [response](grammar/ruby/response.zip)                     |
+| 3   | [socket-merchant](socket-merchant/)     | [code](socket-merchant/js/code.zip), [response](socket-merchant/js/response.zip)     | [code](socket-merchant/php/code.zip), [response](socket-merchant/php/response.zip)     | [code](socket-merchant/ruby/code.zip), [response](socket-merchant/ruby/response.zip)     |
+| 4   | [rot-left](rot-left/)                   | [code](rot-left/js/code.zip), [response](rot-left/js/response.zip)                   | [code](rot-left/php/code.zip), [response](rot-left/php/response.zip)                   | [code](rot-left/ruby/code.zip), [response](rot-left/ruby/response.zip)                   |
+| 5   | [array-stats](array-stats/)             | [code](array-stats/js/code.zip), [response](array-stats/js/response.zip)             | [code](array-stats/php/code.zip), [response](array-stats/php/response.zip)             | [code](array-stats/ruby/code.zip), [response](array-stats/ruby/response.zip)             |
+| 6   | [min-max-sum](min-max-sum/)             | [code](min-max-sum/js/code.zip), [response](min-max-sum/js/response.zip)             | [code](min-max-sum/php/code.zip), [response](min-max-sum/php/response.zip)             | [code](min-max-sum/ruby/code.zip), [response](min-max-sum/ruby/response.zip)             |
+| 7   | [highest-frequency](highest-frequency/) | [code](highest-frequency/js/code.zip), [response](highest-frequency/js/response.zip) | [code](highest-frequency/php/code.zip), [response](highest-frequency/php/response.zip) | [code](highest-frequency/ruby/code.zip), [response](highest-frequency/ruby/response.zip) |
+| 8   | [repeated-string](repeated-string/)     | [code](repeated-string/js/code.zip), [response](repeated-string/js/response.zip)     | [code](repeated-string/php/code.zip), [response](repeated-string/php/response.zip)     | [code](repeated-string/ruby/code.zip), [response](repeated-string/ruby/response.zip)     |
+| 9   | [mirror-sequence](mirror-sequence/)     | [code](mirror-sequence/js/code.zip), [response](mirror-sequence/js/response.zip)     | [code](mirror-sequence/php/code.zip), [response](mirror-sequence/php/response.zip)     | [code](mirror-sequence/ruby/code.zip), [response](mirror-sequence/ruby/response.zip)     |
+| 10  | [zero-means-zero](zero-means-zero/)     | [code](zero-means-zero/js/code.zip), [response](zero-means-zero/js/response.zip)     | [code](zero-means-zero/php/code.zip), [response](zero-means-zero/php/response.zip)     | [code](zero-means-zero/ruby/code.zip), [response](zero-means-zero/ruby/response.zip)     |
+| 11  | [number-of-leds](number-of-leds/)       | [code](number-of-leds/js/code.zip), [response](number-of-leds/js/response.zip)       | [code](number-of-leds/php/code.zip), [response](number-of-leds/php/response.zip)       | [code](number-of-leds/ruby/code.zip), [response](number-of-leds/ruby/response.zip)       |
 
 ## CÓDIGO
 
 ---
 
-Veja esta relação de código inicial e alternativa de resposta disponíveis nestas linguagens:
+### Javascript
 
-| Linguagem  | Código inicial           | Alternativa de Resposta                    |
-| ---------- | ------------------------ | ------------------------------------------ |
-| Javascript | [code.zip](js/code.zip)  | [code-response.zip](js/code-response.zip)  |
-| PHP        | [code.zip](php/code.zip) | [code-response.zip](php/code-response.zip) |
+Se seu PC não possui Javascript e Jest, mas possui o docker, veja que o projeto existe um `Dockerfile`. Então, para executar os testes basta executar os seguintes comandos:
 
-Já para facilitar o mapeamento das questões com o código inicial veja esta outra relação:
-
-| Questão | Nome da Pasta      |
-| ------- | ------------------ |
-| 1       | `FormatDate`       |
-| 2       | `Grammar`          |
-| 3       | `SocketMerchant`   |
-| 4       | `RotLeft`          |
-| 5       | `ArrayStats`       |
-| 6       | `MimMaxSum`        |
-| 7       | `HighestFrequency` |
-| 8       | `RepeatedString`   |
-| 9       | `MirrorSequence`   |
-| 10      | `ZeroMeansZero`    |
-| 11      | `NumberOfLeds`     |
+```
+$ cd code
+$ docker build -t node:jest .
+$ docker run -it --rm -w /app -v "$PWD":/app node:jest sh
+# jest arrayStats.spec.js
+# jest
+```
 
 ### PHP
 
@@ -217,9 +49,9 @@ Se seu PC não possui PHP, composer e kahlan, mas possui o docker, veja que o pr
 ```
 $ cd code
 $ docker build -t php:kahlan .
-$ docker run -it --rm -w /app -v "$PWD":/app php:kahlan sh
+$ docker run -it --rm -w /app -v "$PWD"/src:/app/src -v "$PWD"/spec:/app/spec -v "$PWD"/composer.json:/app/composer.json php:kahlan sh
 # composer install
-# kahlan --spec=spec/FormatDate/FormatDate.spec.php
+# kahlan --spec=spec/ArrayStats.spec.php
 # kahlan --spec=spec/
 ```
 
@@ -231,6 +63,6 @@ Se seu PC não possui Ruby e rspec, mas possui o docker, veja que o projeto exis
 $ cd code
 $ docker build -t ruby:rspec .
 $ docker run -it --rm -w /app -v "$PWD":/app ruby:rspec sh
-# rspec spec/FormatDate/format-date.spec.rb 
-# rspec spec/*/*.spec.rb 
+# rspec spec/array_stats.spec.rb
+# rspec spec/*.spec.rb
 ```
