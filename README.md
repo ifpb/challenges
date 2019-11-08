@@ -2,5 +2,5 @@
 
 - [Algorithms](algorithms/)
 - Web
-  - [Front-end](front-end-web/)
-  - [Back-end](back-end-web/)
+  - [Front-end](web/front-end/)
+  - [Back-end](web/back-end/)
