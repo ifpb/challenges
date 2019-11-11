@@ -13,4 +13,4 @@ Para a construção desta página será necessário atender alguns requisitos:
 
 - Crie o ambiente de execução da aplicação Web usando o `docker-compose.yml`;
 - Crie uma base de dados para persistir a informação dos alunos. (Dica: use a biblioteca PDO para manipular o banco de dados MySQL);
-- Crie um mecanismo de autenticação para restringir o acesso da página dos egressos. (Dica: utilize um tabela de usuários para garantir o acesso à página).
+- Crie um mecanismo de autenticação para restringir o acesso da página dos egressos. (Dica: utilize uma tabela de usuários para garantir o acesso à página).
