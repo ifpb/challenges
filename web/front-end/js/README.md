@@ -12,3 +12,4 @@
 | 08  | [spotippos-filters](spotippos-filters/)                 |
 | 09  | [pokeshop](pokeshop/)                                   |
 | 10  | [pokeshop-filters](pokeshop-filters/)                   |
+| 11  | [barato-coletivo](barato-coletivo/)                     |
