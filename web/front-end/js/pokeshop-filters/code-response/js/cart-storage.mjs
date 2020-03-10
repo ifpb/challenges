@@ -1,44 +1,39 @@
-import { getPokemon } from './pokemon-storage.mjs'
+import { getPokemon } from './pokemon-storage.js';
 
-const cart = {}
+const cart = {};
 
 function getCartItems() {
-  return cart
+  return cart;
 }
 
 function getCartItem(id) {
-  return cart[id]
+  return cart[id];
 }
 
 function addCartItem(id) {
-  if (cart[id])
-    cart[id] += 1
-  else
-    cart[id] = 1
+  if (cart[id]) cart[id] += 1;
+  else cart[id] = 1;
 }
 
 function incrementCartItem(id) {
-  cart[id]++
+  cart[id]++;
 }
 
 function decrementCartItem(id) {
-  cart[id]--
-  if (cart[id] === 0)
-    removeCartItem(id)
+  cart[id]--;
+  if (cart[id] === 0) removeCartItem(id);
 }
 
 function removeCartItem(id) {
-  delete cart[id]
+  delete cart[id];
 }
 
 function countCart() {
-  return Object.values(cart)
-          .reduce((sum, count) => count + sum, 0)
+  return Object.values(cart).reduce((sum, count) => count + sum, 0);
 }
 
 function totalCart() {
-  return Object.keys(cart)
-          .reduce((sum, id) => sum + getPokemon(id).price * getCartItem(id), 0)
+  return Object.keys(cart).reduce((sum, id) => sum + getPokemon(id).price * getCartItem(id), 0);
 }
 
 export {
@@ -49,5 +44,5 @@ export {
   decrementCartItem,
   removeCartItem,
   countCart,
-  totalCart
-}
+  totalCart,
+};

@@ -10,7 +10,7 @@
 | 06  | [pingdom-monitor-dynamic](dynamic/pingdom-monitor/)     |
 | 07  | [dashboard-monitor-static](static/dashboard-monitor/)   |
 | 08  | [dashboard-monitor-dynamic](dynamic/dashboard-monitor/) |
-| 09  | [glass-isc-dhcpstatic](static/glass-isc-dhcp/)          |
-| 10  | [glass-isc-dhcpdynamic](dynamic/glass-isc-dhcp/)        |
+| 09  | [glass-isc-dhcp-static](static/glass-isc-dhcp/)         |
+| 10  | [glass-isc-dhcp-dynamic](dynamic/glass-isc-dhcp/)       |
 | 11  | [glances-static](static/glances/)                       |
 | 12  | [glances-dynamic](dynamic/glances/)                     |

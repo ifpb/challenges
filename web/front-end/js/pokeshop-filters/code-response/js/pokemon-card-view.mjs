@@ -1,20 +1,20 @@
-import { addCartItem } from './cart-storage.mjs'
-import { loadCart } from './pokemon-cart-view.mjs'
+import { addCartItem } from './cart-storage.js';
+import { loadCart } from './pokemon-cart-view.js';
 
 function createPokemonsCards(pokemonSet) {
-  const pokemonCards = document.querySelector('.pokemon-cards')
-  
-  pokemonCards.innerHTML = ''
+  const pokemonCards = document.querySelector('.pokemon-cards');
+
+  pokemonCards.innerHTML = '';
   pokemonSet.forEach((p, id) => {
-    pokemonCards.insertAdjacentHTML('beforeend', pokemonCard(p))
-    
-    const shopBtn = pokemonCards.lastChild.querySelector('.pokemon-card-shop')
-    shopBtn.onclick = (event) => {
-      event.target.blur()
-      addCartItem(id)
-      loadCart()
-    }
-  })
+    pokemonCards.insertAdjacentHTML('beforeend', pokemonCard(p));
+
+    const shopBtn = pokemonCards.lastChild.querySelector('.pokemon-card-shop');
+    shopBtn.onclick = event => {
+      event.target.blur();
+      addCartItem(id);
+      loadCart();
+    };
+  });
 }
 
 function pokemonCard(pokemon) {
@@ -24,9 +24,7 @@ function pokemonCard(pokemon) {
     <span class="pokemon-card-name">${pokemon.name}</span>
     <span class="pokemon-card-price">R$ ${pokemon.price.toFixed(2)}</span>
     <button class="pokemon-card-shop">COMPRAR</button>
-  </div>`
+  </div>`;
 }
 
-export {
-  createPokemonsCards
-}
+export { createPokemonsCards };
